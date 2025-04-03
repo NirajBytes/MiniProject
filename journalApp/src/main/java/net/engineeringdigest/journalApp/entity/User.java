@@ -27,6 +27,7 @@ public class User {
 	private String username;
 	@NonNull
 	private String password;
+	//for reference 
 	@DBRef
 	private List<JournalEntry> journalEntries = new ArrayList<JournalEntry>();
 }

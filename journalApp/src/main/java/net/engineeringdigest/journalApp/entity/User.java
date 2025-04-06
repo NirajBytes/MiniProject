@@ -30,4 +30,28 @@ public class User {
 	//for reference 
 	@DBRef
 	private List<JournalEntry> journalEntries = new ArrayList<JournalEntry>();
+	public ObjectId getId() {
+		return id;
+	}
+	public void setId(ObjectId id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public List<JournalEntry> getJournalEntries() {
+		return journalEntries;
+	}
+	public void setJournalEntries(List<JournalEntry> journalEntries) {
+		this.journalEntries = journalEntries;
+	}
 }

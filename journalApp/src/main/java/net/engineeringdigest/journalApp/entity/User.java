@@ -14,10 +14,10 @@ import com.mongodb.lang.NonNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+//
+//@Data
+//@AllArgsConstructor
+//@NoArgsConstructor
 @Document(collection = "Users")
 public class User {
 	@Id
